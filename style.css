@@ -194,5 +194,5 @@ ul, ol {
 }
 
 .navbar a:hover {
-    transform: translate(0px, -24px);
+    transform: translate(0px, -12px);
 }
