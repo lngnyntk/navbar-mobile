@@ -1,0 +1,198 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    font-family: poppins;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/* Start My CSS */
+
+#welcome,#about,#philosophy,#merchandise,#scan,#contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 1rem; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h3 {
+    font-size: 2rem;
+}
+
+.container p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.divider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.media img {
+    width: 10rem;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.content h5 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.content .list {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+/* Welcome Page */
+
+#welcome h3 {
+    font-size: 1.7rem;
+    /* margin-bottom: 0.5rem; */
+    text-align: center;
+}
+
+#welcome a {
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: rgb(18, 93, 255);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 0.5rem;
+}
+
+#welcome a:hover {
+    background-color: #fff;
+    color: rgb(18, 93, 255);
+}
+
+/* About */
+
+#about .content h5 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+#about .content .list {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* Philosophy */
+
+#philosophy .content h5 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+#philosophy .content {
+    gap: 1rem;
+}
+
+#philosophy .content .list {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    /* justify-content: center; */ 
+    align-items: center;
+}
+
+#philosophy .content .list img {
+    width: 3rem;
+    height: auto;
+    border-radius: 1rem;
+}
+
+/* Merchandise */
+
+
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+/* Navbar */
+
+.navbar {
+    position: sticky;
+    bottom: 0px;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    -webkit-box-shadow: 0px -6px 15px 5px rgba(0,0,0,0.25); 
+    box-shadow: 0px -6px 15px 5px rgba(0,0,0,0.25);
+    background-color: #fff;
+}
+
+.navbar a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.navbar a:hover {
+    transform: translate(0px, -24px);
+}
